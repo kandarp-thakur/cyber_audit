@@ -1,0 +1,7 @@
+out/
+docs/
+*.md
+.git/
+.gitignore
+__pycache__/
+*.pyc

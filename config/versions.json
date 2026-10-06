@@ -1,0 +1,11 @@
+{
+  "_comment": "Minimum safe versions. Any detected version below the 'min' entry is flagged. Update as upstream EOL moves. Dates are YYYY-MM.",
+  "node": { "min": "20.0.0", "severity": "high", "remediation": "Upgrade Node.js to the current LTS (20.x or newer)." },
+  "openssl": { "min": "1.1.1", "severity": "high", "remediation": "Upgrade OpenSSL to 1.1.1+ (prefer 3.x)." },
+  "nginx": { "min": "1.24.0", "severity": "medium", "remediation": "Upgrade nginx to 1.24+ and re-check config." },
+  "apache": { "min": "2.4.58", "severity": "medium", "remediation": "Upgrade Apache httpd to 2.4.58+." },
+  "ssh": { "min": "8.0", "severity": "medium", "remediation": "Upgrade OpenSSH to 8.0+ (prefer latest)." },
+  "php": { "min": "8.1.0", "severity": "high", "remediation": "Upgrade PHP to a supported 8.x release." },
+  "mysql": { "min": "8.0.0", "severity": "medium", "remediation": "Upgrade MySQL to 8.0+." },
+  "postgresql": { "min": "13.0", "severity": "medium", "remediation": "Upgrade PostgreSQL to 13+." }
+}
